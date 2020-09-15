@@ -1,0 +1,37 @@
+Variables:
+
+Una variable es un espacio de memoria, como si fuera una caja, en donde podemos colocar valores o expresiones útiles para poder trabajar con ellas. Una variable puede almacenar cadena de caracteres llamados Strings, pueden almacenar números, funciones o valores booleanos (true/false). También se puede dar el caso que una variable se encuentre vacía, con lo que tendría un valor "null" y por último nos podemos encontrar con una variable declarada pero que no hayamos definido su contenido, siendo una variable "undifine".
+
+Strings:
+
+Los strings son cadenas de caracteres de cualquier tipo (letras, números, símbolos). Estas cadenas de caracteres se asignan a las variables delimitados entre comillas y aunque pueden contener números, no se pueden realizar operaciones aritméticas sobre los mismos ya que todo lo que contiene un String es tratado como texto.
+
+Funciones (argumentos, return):
+
+En programación, cuando nos encontramos que una rutina se repite una y otra vez para realizar una tarea, se utiliza un recurso llamado Función (function). Una función debe tener un nombre con lo cual vamos a invocarla cada vez que la necesitemos; esta función puede recibir argumentos, que serán los datos para que la función procese y además, toda función devuelve un valor.
+
+           nombre  Argumentos
+             |         |
+function sumaValores(a, b) {
+    return a + b;    // retorna suma
+};
+
+Declaraciones if:
+
+Las declaraciones if son declaraciones para toma de decisiones según el resultado de condiciones lógicas o booleanas establecidas. Se traduce como si dijeramos Si esto es de esta manera, que ocurra esto otro. Si no, no. O sea, se declara una condición y se especifíca lo que ocurre si esa condición se cumple o no. También, podemos especificar que ocurre si se da el caso de que se produzca lo contrario a la condición con la cláusual "else" y también podemos tener varias condiciones con el uso de la cláusula "else if".
+
+    condición
+       |
+if (mes > 12) {
+    mes = 1;    //acción
+    anio = anio + 1;
+} else if mes < 1 {   //segunda condición
+    anio = 12;
+    anio = anio - 1;
+} else {    //si no se dan ninguna de las condiciones
+    console.log(mes,anio);   //acción
+};
+
+Valores booleanos (true/false):
+
+Los valores booleanos son valores logicos que solo pueden tener dos estados: true o false (verdadero o falso) y se utilizan en programación para determinar acciones que deben desarrollarse en la aplicación. Estos valores pueden ser el resultado de alguna función, comop resultado de una comparación o bien estar almacenados en una variable. Como ser, si yo digo que "a" vale 10 y "b" vale 9 y expreso que "a" es igual a "b" el resultado sería false, pero si yo digo que "a" es mayor que "b", en ese caso el resultado sería true.
