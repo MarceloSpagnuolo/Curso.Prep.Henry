@@ -1,0 +1,19 @@
+FOR
+
+La instrucción for nos permite realizar repetir 'n' veces una misma tarea. La misma recibe 3 parámetros separados con punto y coma a saber:
+	1. Una variable con una valor inicial desde donde se comenzará a contar las repeticiones.
+	2. Una condición que determinará si se continuará ejecutando la repetición.
+	3. Aquí se indica la forma en que la variable determinada en el primer parámetro irá 	   cambiando su valor.
+
+&&
+
+El operador && (AND) que se traduce como 'y' nos permite utilizar más de una condición en una expresión y representa que las condiciones conectadas con este operador en todos los casos deben ser true (verdaderas)
+
+||
+
+El operador || (OR) que se traduce como '0' también nos permite utilizar más de una condición en una expresión pero en este caso representa que en las condiciones conectadas con este operador, por lo menos, una debe ser verdadera. Cuando una condición es verdadera, no se analizan las siguientes.
+
+!
+
+El operador ! se utiliza para invertir el resultado de una expresion, o sea, si el elemento devuelve true, se convierte a false y si devuelve false, se convierte a true.
+También se utiliza para invertir el significado de "===" (igual) a "!==" desigual.
