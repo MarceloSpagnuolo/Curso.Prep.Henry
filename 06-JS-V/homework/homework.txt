@@ -1,0 +1,7 @@
+PROTOTYPES
+
+Las clases tienen la forma de crear un metodo una única vez y que cada objeto de la clase tenga acceso a él en vez de crear un método por cada obejto de la clase, lo que supondría un alto uso de la memoria y recursos. Estos métodos son llamados prototypes.
+
+CONSTRUCTOR
+
+Es el método llamado en el momento de creción de una instancia de un objeto.

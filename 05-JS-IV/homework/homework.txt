@@ -1,0 +1,21 @@
+OBJETOS
+
+Los objetos son contenedores de elementos parecidos a los arrays, pero a diferencia de éstos, los objetos solo pueden contener un solo elemento pero con mucha información.
+También a diferencia de los arrays que utilizan índices, los objetos utilizan pares de clave:valor. O sea, la clave es en nombre identificador y el valor es el valor guardado en esa clave. No puede haber 2 claves con el mismo nombre, pero si diferentes claves con el mismo valor.
+
+PROPIEDADES
+
+Las propiedades de un objeto son las mencionadas clave:valor. Las mismas pueden ser declaradas en la misma creación del objeto, con notación de puntos o con notación de corchetes.
+Para acceder a las propiedades igualmente se utiliza la notición de puntos o la notación de corchetes.
+
+METODOS
+
+Los métodos son funciones dentro de un objeto. Como .lentgth, .push, .pop en un array. Las misma se invocan con notación de punto y paréntesis finales. También se les puede pasar argumentos como en cualquier función.
+
+FOR ... IN
+
+El bucle for ... in nos permite recorrer todos los elementos de un objeto. A diferencia del array, como un objeto no tiene un índice numérico, este bucle difiere un poco del utilizado para el array. El mismo contiene entre paréntisis 2 parámetros, una variable aque contendrá el elemento inspeccionado y el nombre del objeto. Este bucle se repetirá hasta recorrer todos los elementos del objeto.
+
+NOTACION DE PUNTOS VERSUS CORCHETES
+
+La diferencia fundamental entre estos 2 tipos de notación para acceder a los elementos de un objeto es que con los corchetes se pueden utilizar nombres de elementos contenidos en una variable.

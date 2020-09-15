@@ -1,0 +1,5 @@
+CALLBACKS
+
+En JavaScript se puede pasar una función como parámetro a otra función. 
+Este tipo de función se denomina callbacks y por convención se utiliza 'cb' como nombre de la variable que lleval el callback.
+Es importante remarcar que lo que se pasa es el nombre de la función, sin los parantesis, porque sino le estaríamos pasando el retorno de la función y no la función en sí.
