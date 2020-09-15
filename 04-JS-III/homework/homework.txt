@@ -1,0 +1,6 @@
+ARRAYS
+
+Los arrays son arreglos de variados elementos. Como un contenedor que puede albergar una lista de artículos dentro identados desde el 0 hasta n elementos.
+Esta clase de contenedores de datos pueden contener cualquier tipo de dato dentro de ellos, ya sean strings, cadenas, números, expresiones booleanas, funciones y hasta otros arrays.
+Los valores contenidos en cada array se invocan colocando su índice entre corchetes después del nombre: array[0].
+El tamaño de los arrays dependen de la cantidad de elementos que contengan dentro y del tamaño de los propios elementos contenidos.
